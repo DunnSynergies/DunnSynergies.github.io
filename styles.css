@@ -6,7 +6,7 @@ body, html {
 
 body {
     /* The image used as a background */
-    background-image: url(images/"Background.webp");
+    background-image: url("images/Background.webp");
     
     /* Center the image horizontally and vertically */
     background-position: center center;
@@ -20,6 +20,7 @@ body {
     /* Optional: Fix the background image position so it doesn't scroll with content */
     background-attachment: fixed; 
 }
+
 
 
 
