@@ -1,1 +1,24 @@
+body, html {
+    height: 100%; /* Ensures the html and body elements cover the full height of the viewport */
+    margin: 0; /* Removes default browser margins */
+    padding: 0;
+}
+
+body {
+    /* The image used as a background */
+    background-image: url("your-image.jpg");
+    
+    /* Center the image horizontally and vertically */
+    background-position: center center;
+    
+    /* Do not repeat the image */
+    background-repeat: no-repeat;
+    
+    /* Scale the image to cover the entire container (the full screen) */
+    background-size: cover;
+    
+    /* Optional: Fix the background image position so it doesn't scroll with content */
+    background-attachment: fixed; 
+}
+
 
